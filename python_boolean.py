@@ -17,3 +17,11 @@ else:
 bool("abc")
 bool(123)
 bool(["apple", "cherry", "banana"])
+
+
+def myfunction():   # if this functions returns true then yes will bw printed or no will be printed
+    return True
+if myfunction():
+    print("yes, its true")
+else:
+    print("no")
