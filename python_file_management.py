@@ -27,3 +27,4 @@ In addition you can specify if the file should be handled as binary or text mode
 
 f = open("demofile.txt")
 f = open("demofile.txt","rt")
+
