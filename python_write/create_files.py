@@ -16,4 +16,9 @@ To write to an existing file, you must add a parameter to the open() function:
 #print(f.read())
 #f.close()
 
-f = open("mylov.txt", "w")
+#f = open("mylov.txt", "w")
+import os
+if os.path.exists("mylove.txt"):
+    os.remove("mylove.txt")
+else:
+    print("the file does not exit")
